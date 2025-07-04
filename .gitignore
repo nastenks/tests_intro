@@ -1,3 +1,50 @@
-# __pycache__/
-# *.log
-# venv/
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+__pycache__/
+*.py[cod]
+
+# Виртуальное окружение
+venv/
+.env/
+.env*/
+*.env
+env/
+ENV/
+
+# Питоновские артефакты
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Тестовые и временные файлы
+/tmp/
+*.log
+*.bak
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Selenium-специфичное
+*.png  # скриншоты (если не хотите хранить)
+geckodriver.log
+chromedriver.log
+/webdrivers/  # локальные копии драйверов
+
+# Конфиги и секреты
+secrets.ini
+*.secret
+config_local.py
+credentials.json
+
+# Jupyter ноутбуки (если есть)
+.ipynb_checkpoints/
+*.ipynb
