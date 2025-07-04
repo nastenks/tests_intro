@@ -34,10 +34,10 @@ pip-wheel-metadata/
 htmlcov/
 
 # Selenium-специфичное
-*.png  # скриншоты (если не хотите хранить)
+*.png  
 geckodriver.log
 chromedriver.log
-/webdrivers/  # локальные копии драйверов
+/webdrivers/  
 
 # Конфиги и секреты
 secrets.ini
