@@ -1,6 +1,5 @@
 WEBSITES = {
-    "login_page": "https://example.com/login",
-    "admin_panel": "https://example.com/admin"
+    "link": "https://example.com/login"
 }
 
 CREDENTIALS = {
